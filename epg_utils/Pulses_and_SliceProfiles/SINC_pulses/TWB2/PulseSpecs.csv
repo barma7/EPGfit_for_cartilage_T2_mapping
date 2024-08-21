@@ -1,0 +1,3 @@
+FA,Pulse Lenght (ms),Pulse_Nb_points,TBW,Slice Thickness (mm),thickness factor,dwell (s),SS g (T/m),Reph/crush g (T/m),Reph/crush time (ms)
+90,2.9,100,2,3,NaN,2.9e-05,0.00539889754512129,0.00899816257520214,0.87
+180,2.9,100,2,3.6,1.2,2.9e-05,0.00449908128760107,0.0299938752506738,0.435
