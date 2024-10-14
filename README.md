@@ -1,9 +1,14 @@
 # EPGfit_for_cartilage_T2_mapping
+This repository contains the code and resources for performing cartilage T2 mapping from simulated Multi-Echo Spin Echo (MESE) data using the Extended Phase Graph (EPG), as described in Marco Barbieri, Anthony A. Gatti, and Feliks Kogan's work "Improving Accuracy and Repeatability of Cartilage T2 Mapping in the OAI Dataset through Extended Phase Graph Modeling." 
+
+The article is currently in press in the Journal of Magnetic Resonance Imaging, but the full citation isn't still available and will be updated soon. If you use code from this repository, please cite the journal publication.
+
+Full citation: **Marco Barbieri, Anthony A. Gatti and Feliks Kogan. Improving Accuracy and Repeatability of Cartilage T2 Mapping in the OAI Dataset through Extended Phase Graph Modeling.  J. Magn. Reson. Imaging (2024). In press.**
+
+The pre-computed T2 maps using the EPG-dictionary method are being publicly released in Hugging Face at: https://huggingface.co/datasets/barma7/oai-t2maps-epgfit
 
 ## EPG Formalism for Cartilage T2 Mapping from MESE Data
-
-This repository contains the code and resources for performing cartilage T2 mapping from simulated Multi-Echo Spin Echo (MESE) data using the Extended Phase Graph (EPG) formalism. The repository includes code for training a Multi-Layer Perceptron (MLP) model as well as for performing EPG fit using dictionary matching and non-linear least squares methods.
-
+The repository includes code for training a Multi-Layer Perceptron (MLP) model and performing EPG fit using dictionary matching and non-linear least squares methods.
 ### Directory Structure
 
 1. **deep_learning_training**: This folder contains the Python code for training the MLP model for cartilage T2 mapping from simulated MESE data using the EPG formalism.
