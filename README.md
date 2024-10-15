@@ -40,5 +40,5 @@ The repository includes code for training a Multi-Layer Perceptron (MLP) model a
 
 ### References
 
-1. Improving accuracy and reproducibility of cartilage T2 mapping in the OAI dataset through extended phase graph modeling. Journal of Magnetic Resonance Imaging, 2022.
+1. Barbieri et al. Improving accuracy and reproducibility of cartilage T2 mapping in the OAI dataset through extended phase graph modeling. Journal of Magnetic Resonance Imaging, 2024, in Press.
 2. StimFit toolbox: https://github.com/usc-mrel/StimFit
